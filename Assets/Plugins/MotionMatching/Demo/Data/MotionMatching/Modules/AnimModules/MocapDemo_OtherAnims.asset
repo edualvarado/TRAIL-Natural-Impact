@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d57c0f22d11c041b0eca89fbdb45b3, type: 3}
+  m_Name: MocapDemo_OtherAnims
+  m_EditorClassIdentifier: 
+  m_hideSubAssets: 1
+  m_overrideConfigModule: {fileID: 11400000, guid: 32c1ff2fef3daf043a403372854e968a,
+    type: 2}
+  m_overrideTagModule: {fileID: 11400000, guid: 6b7014982c117a4419587441e184f2a2,
+    type: 2}
+  m_overrideEventModule: {fileID: 11400000, guid: 1e3c70b0e11d14d4c9eaa577f4c3fa44,
+    type: 2}
+  m_animModuleDefaults:
+    IgnoreEdges: 0
+    Extrapolate: 1
+    FlattenTrajectory: 0
+    RuntimeSplicing: 0
+    BlendSpaceType: 2
+    ScatterSpacing: {x: 0.05, y: 0.05}
+    NormalizeBlendSpace: 1
+    BlendSpaceMagnitude: {x: 1, y: 1}
+    BlendSpaceSmoothing: {x: 0.25, y: 0.25}
+    MinLoops: 1
+    MaxLoops: 2
+    RequireTags: 0
+    FavourTags: 0
+  m_compositeCategories:
+  - CatagoryName: Dancing
+    Composites: []
+    IgnoreEdges_default: 0
+    Extrapolate_default: 1
+    FlattenTrajectory_default: 0
+    RuntimeSplicing_default: 0
+    RequireTags_default: 0
+    FavourTags_default: 0
+  m_animIdleSets: []
+  m_blendSpaces: []
+  m_moduleFoldout: 1
+  m_compositeFoldout: 1
+  m_idleSetFoldout: 0
+  m_blendSpaceFoldout: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316ca862c074e1741bb37ecbefd40148, type: 3}
+  m_Name: EventDef_VaultUp_High
+  m_EditorClassIdentifier: 
+  Id: 6
+  EventName: VaultUpHigh
+  EventType: 0
+  Priority: -1
+  ContactCountToMatch: 1
+  ContactCountToWarp: 1
+  ExitWithMotion: 1
+  MatchPose: 1
+  MatchTrajectory: 1
+  MatchRequireTags: 0
+  FavourTagMethod: 0
+  PostEventTrajectoryMode: 3
+  MatchTiming: 0
+  ExactTimeMatch: 0
+  TimingWeight: 0
+  TimingWarpType: 0
+  MatchPosition: 1
+  PositionWeight: 10
+  MotionWarpType: 2
+  WarpTimeScaling: 0
+  ContactCountToTimeScale: 1
+  MinWarpTimeScale: 0.9
+  MaxWarpTimeScale: 1.2
+  MatchRotation: 0
+  RotationWeight: 0
+  RotationWarpType: 2
+  m_targetEventNamingModule: {fileID: 11400000, guid: 1e3c70b0e11d14d4c9eaa577f4c3fa44,
+    type: 2}
+  m_targetAnimData: {fileID: 0}

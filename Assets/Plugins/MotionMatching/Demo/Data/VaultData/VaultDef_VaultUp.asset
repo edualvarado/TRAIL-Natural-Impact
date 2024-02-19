@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23a91d4d629ea44c94666ac7f4418bb, type: 3}
+  m_Name: VaultDef_VaultUp
+  m_EditorClassIdentifier: 
+  EventDefinition: {fileID: 11400000, guid: 7e38bfd09975fd64b8f8c69cf44497ae, type: 2}
+  MinRise: 0.5
+  MaxRise: 1.1
+  MinDepth: 1
+  MaxDepth: 10
+  MinDrop: 0
+  MaxDrop: 0.5
+  DisableCollision: 0
+  LineUpWithObstacle: 0
+  VaultType: 1
+  OffsetMethod_Contact1: 1
+  Offset_Contact1: {x: 0, y: 0, z: 0.4}
+  OffsetMethod_Contact2: 0
+  Offset_Contact2: {x: 0, y: 0, z: 0}

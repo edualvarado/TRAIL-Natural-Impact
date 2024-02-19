@@ -1,0 +1,7120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d57c0f22d11c041b0eca89fbdb45b3, type: 3}
+  m_Name: MocapDemo_WalkAnims
+  m_EditorClassIdentifier: 
+  m_hideSubAssets: 1
+  m_overrideConfigModule: {fileID: 11400000, guid: 32c1ff2fef3daf043a403372854e968a,
+    type: 2}
+  m_overrideTagModule: {fileID: 11400000, guid: 6b7014982c117a4419587441e184f2a2,
+    type: 2}
+  m_overrideEventModule: {fileID: 11400000, guid: 1e3c70b0e11d14d4c9eaa577f4c3fa44,
+    type: 2}
+  m_animModuleDefaults:
+    IgnoreEdges: 0
+    Extrapolate: 1
+    FlattenTrajectory: 0
+    RuntimeSplicing: 0
+    BlendSpaceType: 0
+    ScatterSpacing: {x: 0.05, y: 0.05}
+    NormalizeBlendSpace: 1
+    BlendSpaceMagnitude: {x: 1, y: 1}
+    BlendSpaceSmoothing: {x: 0.25, y: 0.25}
+    MinLoops: 0
+    MaxLoops: 0
+    RequireTags: 0
+    FavourTags: 0
+  m_compositeCategories:
+  - CatagoryName: Composite Category
+    Composites:
+    - {fileID: 114350961197478708}
+    - {fileID: 114715881070470994}
+    - {fileID: 114440631978459154}
+    - {fileID: 114509505560813520}
+    - {fileID: 114690715652726362}
+    - {fileID: 114588631242655438}
+    - {fileID: 114771201776498350}
+    - {fileID: 114232900471685712}
+    - {fileID: 114530113342257764}
+    - {fileID: 114943286650735532}
+    - {fileID: 114216326796941876}
+    - {fileID: 114256088963280608}
+    - {fileID: 114184179758379628}
+    - {fileID: 114925437848114778}
+    - {fileID: 114644053611043028}
+    - {fileID: 114301768013509032}
+    - {fileID: 114259591792240982}
+    - {fileID: 114861250804832656}
+    - {fileID: 114252418548470736}
+    IgnoreEdges_default: 1
+    Extrapolate_default: 0
+    FlattenTrajectory_default: 0
+    RuntimeSplicing_default: 0
+    RequireTags_default: 0
+    FavourTags_default: 0
+  m_animIdleSets:
+  - {fileID: 114431216288818200}
+  - {fileID: 114231277744090704}
+  m_blendSpaces: []
+  m_moduleFoldout: 1
+  m_compositeFoldout: 1
+  m_idleSetFoldout: 1
+  m_blendSpaceFoldout: 1
+--- !u!114 &114184179758379628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|13_WalkContinue_Neutral_03_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400016, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.86667
+    m_tags:
+    - {x: 0, y: 1.9492602}
+    - {x: 5.0063725, y: 7.271781}
+    - {x: 10.306937, y: 11.30777}
+    - {x: 14.358551, y: 16.623962}
+    - {x: 19.239197, y: 19.844862}
+    - {x: 22.20619, y: 22.732826}
+    - {x: 24.659044, y: 25.50182}
+    - {x: 28.076038, y: 28.681704}
+    - {x: 31.181318, y: 33.86667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 33.9
+    m_tagPositions:
+    - {x: 0, y: 0.016666668}
+    - {x: 0.11666667, y: 0.61666673}
+    - {x: 1.1499996, y: 1.6666658}
+    - {x: 2.2166653, y: 2.6833315}
+    - {x: 3.2166643, y: 3.6999972}
+    - {x: 4.233333, y: 4.73334}
+    - {x: 5.2500134, y: 5.75002}
+    - {x: 6.2833605, y: 6.800034}
+    - {x: 7.3167076, y: 7.850048}
+    - {x: 8.283379, y: 8.850037}
+    - {x: 9.333363, y: 9.850021}
+    - {x: 10.36668, y: 10.8666725}
+    - {x: 11.399998, y: 11.9166565}
+    - {x: 12.433315, y: 12.949974}
+    - {x: 13.483299, y: 13.983292}
+    - {x: 14.516617, y: 15.016609}
+    - {x: 15.549934, y: 16.099926}
+    - {x: 16.633251, y: 17.14991}
+    - {x: 17.61657, y: 18.08323}
+    - {x: 18.63322, y: 19.199879}
+    - {x: 19.699871, y: 20.233196}
+    - {x: 20.733189, y: 21.249847}
+    - {x: 21.766506, y: 22.283165}
+    - {x: 22.783157, y: 23.349815}
+    - {x: 23.833141, y: 24.383133}
+    - {x: 24.933125, y: 25.483116}
+    - {x: 25.983109, y: 26.5331}
+    - {x: 26.99976, y: 27.566418}
+    - {x: 28.11641, y: 28.649734}
+    - {x: 29.166393, y: 29.666386}
+    - {x: 30.183044, y: 30.66637}
+    - {x: 31.216362, y: 31.716354}
+    - {x: 32.266346, y: 32.816338}
+    - {x: 33.332996, y: 33.86632}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 33.9
+    m_tagPositions:
+    - {x: 0, y: 0.1}
+    - {x: 0.6333334, y: 1.1166663}
+    - {x: 1.6666658, y: 2.1999986}
+    - {x: 2.6333315, y: 3.2166643}
+    - {x: 3.6833305, y: 4.216666}
+    - {x: 4.7500067, y: 5.2166796}
+    - {x: 5.766687, y: 6.2666936}
+    - {x: 6.800034, y: 7.3167076}
+    - {x: 7.833381, y: 8.316711}
+    - {x: 8.850037, y: 9.316696}
+    - {x: 9.883354, y: 10.350014}
+    - {x: 10.883339, y: 11.383331}
+    - {x: 11.9166565, y: 12.433315}
+    - {x: 12.933308, y: 13.449966}
+    - {x: 13.983292, y: 14.49995}
+    - {x: 15.033276, y: 15.549934}
+    - {x: 16.099926, y: 16.616585}
+    - {x: 17.14991, y: 17.61657}
+    - {x: 18.066563, y: 18.63322}
+    - {x: 19.183212, y: 19.683205}
+    - {x: 20.233196, y: 20.716522}
+    - {x: 21.249847, y: 21.74984}
+    - {x: 22.299831, y: 22.799824}
+    - {x: 23.333149, y: 23.833141}
+    - {x: 24.383133, y: 24.916458}
+    - {x: 25.46645, y: 25.999775}
+    - {x: 26.4831, y: 27.016426}
+    - {x: 27.583084, y: 28.11641}
+    - {x: 28.649734, y: 29.149727}
+    - {x: 29.64972, y: 30.166378}
+    - {x: 30.699703, y: 31.18303}
+    - {x: 31.73302, y: 32.24968}
+    - {x: 32.783005, y: 33.332996}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.9
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.9
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.9
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114216326796941876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|12_WalkCounterPlant_Neutral_04_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400014, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.26667
+    m_tags:
+    - {x: 0, y: 2.6031215}
+    - {x: 4.6139627, y: 6.5249925}
+    - {x: 8.501271, y: 10.862118}
+    - {x: 12.457699, y: 15.8452}
+    - {x: 17.22166, y: 19.028816}
+    - {x: 21.08581, y: 21.751062}
+    - {x: 23.53121, y: 24.888538}
+    - {x: 26.205572, y: 28.047495}
+    - {x: 30.124163, y: 33.26667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 0.4166668}
+    - {x: 0.9333331, y: 1.3999994}
+    - {x: 1.9166656, y: 2.416665}
+    - {x: 2.9166646, y: 3.849997}
+    - {x: 4.416669, y: 4.883342}
+    - {x: 5.4000154, y: 5.883355}
+    - {x: 6.4166956, y: 6.9000354}
+    - {x: 7.3500414, y: 7.6333785}
+    - {x: 8.100048, y: 8.533375}
+    - {x: 9.083366, y: 9.566692}
+    - {x: 10.066685, y: 10.533344}
+    - {x: 11.050003, y: 11.516663}
+    - {x: 11.89999, y: 12.399982}
+    - {x: 12.916641, y: 13.366634}
+    - {x: 13.883293, y: 14.366619}
+    - {x: 14.883278, y: 15.366604}
+    - {x: 15.799931, y: 16.399921}
+    - {x: 16.649918, y: 17.09991}
+    - {x: 17.61657, y: 18.08323}
+    - {x: 18.63322, y: 19.116547}
+    - {x: 19.583206, y: 19.9332}
+    - {x: 20.566525, y: 21.033184}
+    - {x: 21.549843, y: 22.016502}
+    - {x: 22.383163, y: 22.86649}
+    - {x: 23.416481, y: 23.88314}
+    - {x: 24.383133, y: 24.866459}
+    - {x: 25.28312, y: 25.733112}
+    - {x: 26.233105, y: 26.666431}
+    - {x: 27.199757, y: 27.64975}
+    - {x: 28.183075, y: 28.683067}
+    - {x: 29.083061, y: 29.54972}
+    - {x: 30.099712, y: 30.566372}
+    - {x: 31.08303, y: 31.583023}
+    - {x: 32.107853, y: 33.223103}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 0.016666668}
+    - {x: 0.45000017, y: 0.8999998}
+    - {x: 1.4333327, y: 1.8833323}
+    - {x: 2.416665, y: 2.8833313}
+    - {x: 3.283331, y: 3.4333308}
+    - {x: 3.9333303, y: 4.400002}
+    - {x: 4.9166756, y: 5.3833485}
+    - {x: 5.916689, y: 6.383362}
+    - {x: 6.933369, y: 7.9847445}
+    - {x: 8.60004, y: 9.0667}
+    - {x: 9.583359, y: 10.033352}
+    - {x: 10.550011, y: 11.01667}
+    - {x: 11.449997, y: 11.833324}
+    - {x: 12.433315, y: 12.866642}
+    - {x: 13.399967, y: 13.84996}
+    - {x: 14.3832855, y: 14.849945}
+    - {x: 15.366604, y: 15.816597}
+    - {x: 16.21659, y: 16.616585}
+    - {x: 17.14991, y: 17.583237}
+    - {x: 18.116562, y: 18.599888}
+    - {x: 19.14988, y: 19.616539}
+    - {x: 20.083199, y: 20.533192}
+    - {x: 21.04985, y: 21.51651}
+    - {x: 21.999836, y: 22.44983}
+    - {x: 22.883156, y: 23.383148}
+    - {x: 23.899807, y: 24.383133}
+    - {x: 24.849792, y: 25.28312}
+    - {x: 25.733112, y: 26.183105}
+    - {x: 26.699764, y: 27.149757}
+    - {x: 27.683083, y: 28.166409}
+    - {x: 28.633068, y: 29.016396}
+    - {x: 29.59972, y: 30.049713}
+    - {x: 30.583038, y: 31.049698}
+    - {x: 31.616356, y: 33.26667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 10.123893}
+    m_values:
+    - 1.25
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.26667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114231277744090704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65aaaabfda1387c43aa9a38099837301, type: 3}
+  m_Name: AnimUprisingRig|01_IdleLoop_FINAL_MIRROR
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400028, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  SecondaryClips:
+  - {fileID: 7400086, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400050, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400050, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400082, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400078, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400074, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400054, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400058, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400066, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400062, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400090, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400070, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  TransitionClips: []
+  Tags: 0
+  FavourTags: 0
+  MinLoops: 1
+  MaxLoops: 2
+  Traits: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+--- !u!114 &114232900471685712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|10_WalkCounterStart_Neutral_03_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400036, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 0
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.700005
+    m_tags:
+    - {x: 2.5761719, y: 6.719179}
+    - {x: 9.016054, y: 12.057991}
+    - {x: 14.173225, y: 16.861261}
+    - {x: 18.900003, y: 21.706032}
+    - {x: 23.751226, y: 27.658302}
+    - {x: 29.781769, y: 33.700005}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 33.733337
+    m_tagPositions:
+    - {x: 0, y: 0.8999998}
+    - {x: 1.0499997, y: 1.466666}
+    - {x: 2.0666654, y: 2.516665}
+    - {x: 3.0499978, y: 3.516664}
+    - {x: 4.083331, y: 4.583338}
+    - {x: 5.1000113, y: 5.6833525}
+    - {x: 5.766687, y: 7.700046}
+    - {x: 8.333378, y: 8.783371}
+    - {x: 9.333363, y: 9.800022}
+    - {x: 10.333347, y: 12.766644}
+    - {x: 13.316635, y: 13.799961}
+    - {x: 14.333286, y: 14.799946}
+    - {x: 15.283272, y: 17.583237}
+    - {x: 18.08323, y: 18.583221}
+    - {x: 19.09988, y: 19.599873}
+    - {x: 20.099865, y: 22.516495}
+    - {x: 22.899822, y: 23.383148}
+    - {x: 23.916473, y: 24.366467}
+    - {x: 24.883125, y: 25.383118}
+    - {x: 25.866444, y: 26.449768}
+    - {x: 26.516434, y: 28.216408}
+    - {x: 28.48307, y: 28.816399}
+    - {x: 29.483055, y: 29.933048}
+    - {x: 30.48304, y: 30.966366}
+    - {x: 31.550764, y: 33.698994}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 33.733337
+    m_tagPositions:
+    - {x: 0, y: 0.5666668}
+    - {x: 0.78333324, y: 1.0333331}
+    - {x: 1.5666659, y: 2.0166655}
+    - {x: 2.5499983, y: 3.0166645}
+    - {x: 3.5499973, y: 4.0499973}
+    - {x: 4.6000047, y: 5.1000113}
+    - {x: 5.48335, y: 6.8833685}
+    - {x: 7.100038, y: 7.3167076}
+    - {x: 7.8000474, y: 8.333378}
+    - {x: 8.83337, y: 9.30003}
+    - {x: 9.833355, y: 10.333347}
+    - {x: 10.750008, y: 12.666645}
+    - {x: 12.749977, y: 13.333302}
+    - {x: 13.84996, y: 14.31662}
+    - {x: 14.799946, y: 15.316605}
+    - {x: 15.683266, y: 17.449905}
+    - {x: 17.583237, y: 18.08323}
+    - {x: 18.599888, y: 19.09988}
+    - {x: 19.599873, y: 20.116531}
+    - {x: 20.533192, y: 22.383163}
+    - {x: 22.44983, y: 22.916489}
+    - {x: 23.449814, y: 23.88314}
+    - {x: 24.3998, y: 24.883125}
+    - {x: 25.349785, y: 25.866444}
+    - {x: 26.283104, y: 27.816414}
+    - {x: 28.083076, y: 28.416405}
+    - {x: 28.933064, y: 29.433056}
+    - {x: 29.966381, y: 30.466373}
+    - {x: 30.999699, y: 31.516357}
+    - {x: 32.0567, y: 33.695076}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.733337
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.700005
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114252418548470736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|28_29_WalkCircleSpiral_Neutral_02_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400046, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 72.200005
+    m_tags:
+    - {x: 0, y: 2.8099995}
+    - {x: 33.866665, y: 37.369995}
+    - {x: 68.74869, y: 72.200005}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 72.23334
+    m_tagPositions:
+    - {x: 0, y: 0.71666664}
+    - {x: 1.2499995, y: 1.7333324}
+    - {x: 2.2833319, y: 2.7833314}
+    - {x: 3.3333309, y: 3.8166637}
+    - {x: 4.366668, y: 4.850008}
+    - {x: 5.4166822, y: 5.916689}
+    - {x: 6.4500294, y: 6.933369}
+    - {x: 7.5000434, y: 7.983383}
+    - {x: 8.533375, y: 9.033367}
+    - {x: 9.583359, y: 10.083351}
+    - {x: 10.666676, y: 11.166668}
+    - {x: 11.71666, y: 12.233318}
+    - {x: 12.78331, y: 13.316635}
+    - {x: 13.84996, y: 14.366619}
+    - {x: 14.933277, y: 15.449936}
+    - {x: 15.9999275, y: 16.533253}
+    - {x: 17.083244, y: 17.599903}
+    - {x: 18.166561, y: 18.716553}
+    - {x: 19.249878, y: 19.783203}
+    - {x: 20.349861, y: 20.883186}
+    - {x: 21.449844, y: 21.949837}
+    - {x: 22.499828, y: 23.016487}
+    - {x: 23.583145, y: 24.099804}
+    - {x: 24.649796, y: 25.199787}
+    - {x: 25.766445, y: 26.29977}
+    - {x: 26.849762, y: 27.399754}
+    - {x: 27.949745, y: 28.48307}
+    - {x: 28.99973, y: 29.516388}
+    - {x: 30.049713, y: 30.583038}
+    - {x: 31.13303, y: 31.666355}
+    - {x: 32.233013, y: 32.79967}
+    - {x: 33.31633, y: 33.882988}
+    - {x: 34.38298, y: 34.932972}
+    - {x: 35.382965, y: 36.04962}
+    - {x: 36.56628, y: 37.149605}
+    - {x: 37.699596, y: 38.249588}
+    - {x: 38.866245, y: 39.382904}
+    - {x: 39.932896, y: 40.46622}
+    - {x: 41.016212, y: 41.549538}
+    - {x: 42.132862, y: 42.64952}
+    - {x: 43.199512, y: 43.76617}
+    - {x: 44.33283, y: 44.866154}
+    - {x: 45.43281, y: 45.966137}
+    - {x: 46.54946, y: 47.082787}
+    - {x: 47.66611, y: 48.18277}
+    - {x: 48.73276, y: 49.266087}
+    - {x: 49.832745, y: 50.332737}
+    - {x: 50.91606, y: 51.449387}
+    - {x: 52.049377, y: 52.54937}
+    - {x: 53.09936, y: 53.632687}
+    - {x: 54.199345, y: 54.716003}
+    - {x: 55.265995, y: 55.782654}
+    - {x: 56.34931, y: 56.899303}
+    - {x: 57.46596, y: 57.965954}
+    - {x: 58.53261, y: 59.065937}
+    - {x: 59.61593, y: 60.132587}
+    - {x: 60.699245, y: 61.215904}
+    - {x: 61.815895, y: 62.315887}
+    - {x: 62.882545, y: 63.382538}
+    - {x: 63.965862, y: 64.46596}
+    - {x: 65.032745, y: 65.56619}
+    - {x: 66.11631, y: 66.64976}
+    - {x: 67.233215, y: 67.73332}
+    - {x: 68.31678, y: 68.83356}
+    - {x: 69.417015, y: 69.93379}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 72.23334
+    m_tagPositions:
+    - {x: 0, y: 0.28333336}
+    - {x: 0.65000004, y: 1.2166662}
+    - {x: 1.7666657, y: 2.2499986}
+    - {x: 2.8166647, y: 3.3166642}
+    - {x: 3.849997, y: 4.3500013}
+    - {x: 4.9000087, y: 5.4166822}
+    - {x: 5.916689, y: 6.4500294}
+    - {x: 6.966703, y: 7.4833765}
+    - {x: 8.016716, y: 8.533375}
+    - {x: 9.050034, y: 9.583359}
+    - {x: 10.13335, y: 10.650009}
+    - {x: 11.200001, y: 11.733326}
+    - {x: 12.249985, y: 12.799976}
+    - {x: 13.349968, y: 13.866627}
+    - {x: 14.3832855, y: 14.933277}
+    - {x: 15.466602, y: 16.016594}
+    - {x: 16.533253, y: 17.083244}
+    - {x: 17.633236, y: 18.166561}
+    - {x: 18.73322, y: 19.266544}
+    - {x: 19.783203, y: 20.349861}
+    - {x: 20.883186, y: 21.433178}
+    - {x: 21.949837, y: 22.499828}
+    - {x: 22.99982, y: 23.583145}
+    - {x: 24.11647, y: 24.666462}
+    - {x: 25.199787, y: 25.766445}
+    - {x: 26.283104, y: 26.883095}
+    - {x: 27.399754, y: 27.966412}
+    - {x: 28.48307, y: 29.016396}
+    - {x: 29.533054, y: 30.083046}
+    - {x: 30.583038, y: 31.166363}
+    - {x: 31.649689, y: 32.266346}
+    - {x: 32.749672, y: 33.382996}
+    - {x: 33.816322, y: 34.449646}
+    - {x: 34.832973, y: 35.54963}
+    - {x: 35.96629, y: 36.61628}
+    - {x: 37.099606, y: 37.749596}
+    - {x: 38.249588, y: 38.866245}
+    - {x: 39.39957, y: 39.932896}
+    - {x: 40.482887, y: 41.049545}
+    - {x: 41.566204, y: 42.132862}
+    - {x: 42.64952, y: 43.24951}
+    - {x: 43.76617, y: 44.349495}
+    - {x: 44.88282, y: 45.44948}
+    - {x: 45.982803, y: 46.54946}
+    - {x: 47.099453, y: 47.649445}
+    - {x: 48.216103, y: 48.73276}
+    - {x: 49.282753, y: 49.81608}
+    - {x: 50.382736, y: 50.91606}
+    - {x: 51.48272, y: 52.03271}
+    - {x: 52.566036, y: 53.116028}
+    - {x: 53.649353, y: 54.199345}
+    - {x: 54.716003, y: 55.265995}
+    - {x: 55.79932, y: 56.36598}
+    - {x: 56.882637, y: 57.46596}
+    - {x: 58.015953, y: 58.53261}
+    - {x: 59.082603, y: 59.61593}
+    - {x: 60.16592, y: 60.71591}
+    - {x: 61.23257, y: 61.79923}
+    - {x: 62.332554, y: 62.882545}
+    - {x: 63.41587, y: 63.949196}
+    - {x: 64.51597, y: 65.049416}
+    - {x: 65.58286, y: 66.13298}
+    - {x: 66.6831, y: 67.216545}
+    - {x: 67.78333, y: 68.30011}
+    - {x: 68.85023, y: 69.31699}
+    - {x: 69.95046, y: 70.45057}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 72.23334
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 72.200005
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114256088963280608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|12_WalkCounterPlant_Neutral_04_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400038, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.26667
+    m_tags:
+    - {x: 0, y: 2.6031215}
+    - {x: 4.6139627, y: 6.5249925}
+    - {x: 8.501271, y: 10.862118}
+    - {x: 12.457699, y: 15.8452}
+    - {x: 17.22166, y: 19.028816}
+    - {x: 21.08581, y: 21.751062}
+    - {x: 23.53121, y: 24.888538}
+    - {x: 26.205572, y: 28.047495}
+    - {x: 30.124163, y: 33.26667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 0.016666668}
+    - {x: 0.45000017, y: 0.8999998}
+    - {x: 1.4333327, y: 1.8833323}
+    - {x: 2.416665, y: 2.8833313}
+    - {x: 3.283331, y: 3.4333308}
+    - {x: 3.9333303, y: 4.400002}
+    - {x: 4.9166756, y: 5.3833485}
+    - {x: 5.916689, y: 6.383362}
+    - {x: 6.933369, y: 7.9847445}
+    - {x: 8.60004, y: 9.0667}
+    - {x: 9.583359, y: 10.033352}
+    - {x: 10.550011, y: 11.01667}
+    - {x: 11.449997, y: 11.833324}
+    - {x: 12.433315, y: 12.866642}
+    - {x: 13.399967, y: 13.84996}
+    - {x: 14.3832855, y: 14.849945}
+    - {x: 15.366604, y: 15.816597}
+    - {x: 16.21659, y: 16.616585}
+    - {x: 17.14991, y: 17.583237}
+    - {x: 18.116562, y: 18.599888}
+    - {x: 19.14988, y: 19.616539}
+    - {x: 20.083199, y: 20.533192}
+    - {x: 21.04985, y: 21.51651}
+    - {x: 21.999836, y: 22.44983}
+    - {x: 22.883156, y: 23.383148}
+    - {x: 23.899807, y: 24.383133}
+    - {x: 24.849792, y: 25.28312}
+    - {x: 25.733112, y: 26.183105}
+    - {x: 26.699764, y: 27.149757}
+    - {x: 27.683083, y: 28.166409}
+    - {x: 28.633068, y: 29.016396}
+    - {x: 29.59972, y: 30.049713}
+    - {x: 30.583038, y: 31.049698}
+    - {x: 31.616356, y: 33.26667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 0.4166668}
+    - {x: 0.9333331, y: 1.3999994}
+    - {x: 1.9166656, y: 2.416665}
+    - {x: 2.9166646, y: 3.849997}
+    - {x: 4.416669, y: 4.883342}
+    - {x: 5.4000154, y: 5.883355}
+    - {x: 6.4166956, y: 6.9000354}
+    - {x: 7.3500414, y: 7.6333785}
+    - {x: 8.100048, y: 8.533375}
+    - {x: 9.083366, y: 9.566692}
+    - {x: 10.066685, y: 10.533344}
+    - {x: 11.050003, y: 11.516663}
+    - {x: 11.89999, y: 12.399982}
+    - {x: 12.916641, y: 13.366634}
+    - {x: 13.883293, y: 14.366619}
+    - {x: 14.883278, y: 15.366604}
+    - {x: 15.799931, y: 16.399921}
+    - {x: 16.649918, y: 17.09991}
+    - {x: 17.61657, y: 18.08323}
+    - {x: 18.63322, y: 19.116547}
+    - {x: 19.583206, y: 19.9332}
+    - {x: 20.566525, y: 21.033184}
+    - {x: 21.549843, y: 22.016502}
+    - {x: 22.383163, y: 22.86649}
+    - {x: 23.416481, y: 23.88314}
+    - {x: 24.383133, y: 24.866459}
+    - {x: 25.28312, y: 25.733112}
+    - {x: 26.233105, y: 26.666431}
+    - {x: 27.199757, y: 27.64975}
+    - {x: 28.183075, y: 28.683067}
+    - {x: 29.083061, y: 29.54972}
+    - {x: 30.099712, y: 30.566372}
+    - {x: 31.08303, y: 31.583023}
+    - {x: 32.107853, y: 33.223103}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.26667
+    m_tagPositions:
+    - {x: 0, y: 10.123893}
+    m_values:
+    - 1.25
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.26667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.26667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114259591792240982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|26_WalkSnake_Neutral_03_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400044, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 87.100006
+    m_tags:
+    - {x: 0, y: 1.6397886}
+    - {x: 20.57143, y: 26.867516}
+    - {x: 44.80713, y: 50.447216}
+    - {x: 65.99581, y: 71.74992}
+    - {x: 85.771774, y: 87.06667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0, y: 0.91666645}
+    - {x: 1.3999994, y: 1.9166656}
+    - {x: 2.4333317, y: 2.8666646}
+    - {x: 3.3833308, y: 3.849997}
+    - {x: 4.383335, y: 4.850008}
+    - {x: 5.3833485, y: 5.8500214}
+    - {x: 6.350028, y: 6.8500347}
+    - {x: 7.3667083, y: 7.850048}
+    - {x: 8.4000435, y: 8.850037}
+    - {x: 9.416695, y: 9.916687}
+    - {x: 10.450012, y: 10.933338}
+    - {x: 11.48333, y: 11.983322}
+    - {x: 12.533314, y: 13.049973}
+    - {x: 13.583298, y: 14.0999565}
+    - {x: 14.599949, y: 15.083275}
+    - {x: 15.599934, y: 16.116592}
+    - {x: 16.649918, y: 17.116577}
+    - {x: 17.683235, y: 18.149895}
+    - {x: 18.68322, y: 19.216545}
+    - {x: 19.74987, y: 20.233196}
+    - {x: 20.749855, y: 21.316513}
+    - {x: 21.816505, y: 22.416496}
+    - {x: 22.749825, y: 26.199772}
+    - {x: 26.71643, y: 27.249756}
+    - {x: 27.766415, y: 28.24974}
+    - {x: 28.783066, y: 29.266392}
+    - {x: 29.799717, y: 30.283043}
+    - {x: 30.783035, y: 31.299694}
+    - {x: 31.83302, y: 32.316345}
+    - {x: 32.84967, y: 33.349663}
+    - {x: 33.882988, y: 34.38298}
+    - {x: 34.89964, y: 35.44963}
+    - {x: 35.932957, y: 36.48295}
+    - {x: 36.999607, y: 37.482933}
+    - {x: 38.01626, y: 38.46625}
+    - {x: 39.016243, y: 39.516235}
+    - {x: 40.032894, y: 40.549553}
+    - {x: 41.049545, y: 41.549538}
+    - {x: 42.082863, y: 42.532856}
+    - {x: 43.082848, y: 43.566174}
+    - {x: 44.082832, y: 44.59949}
+    - {x: 45.132816, y: 45.649475}
+    - {x: 45.71614, y: 45.76614}
+    - {x: 46.016136, y: 49.549416}
+    - {x: 50.049408, y: 50.5494}
+    - {x: 51.06606, y: 51.549385}
+    - {x: 52.049377, y: 52.532703}
+    - {x: 53.032696, y: 53.499355}
+    - {x: 54.016014, y: 54.466007}
+    - {x: 54.982666, y: 55.449326}
+    - {x: 55.949318, y: 56.44931}
+    - {x: 56.982635, y: 57.399296}
+    - {x: 57.88262, y: 58.365948}
+    - {x: 58.81594, y: 59.349266}
+    - {x: 59.832592, y: 60.315918}
+    - {x: 60.832577, y: 61.299236}
+    - {x: 61.849228, y: 62.332554}
+    - {x: 62.849213, y: 63.33254}
+    - {x: 63.849197, y: 64.299255}
+    - {x: 64.81603, y: 65.29947}
+    - {x: 65.816246, y: 66.31635}
+    - {x: 66.78312, y: 67.249886}
+    - {x: 67.68331, y: 70.78397}
+    - {x: 71.28408, y: 71.76752}
+    - {x: 72.284294, y: 72.71772}
+    - {x: 73.25117, y: 73.71793}
+    - {x: 74.21804, y: 74.66814}
+    - {x: 75.201584, y: 75.66835}
+    - {x: 76.2018, y: 76.668564}
+    - {x: 77.152, y: 77.61877}
+    - {x: 78.168884, y: 78.58564}
+    - {x: 79.10242, y: 79.56918}
+    - {x: 80.08596, y: 80.58607}
+    - {x: 81.0695, y: 81.5196}
+    - {x: 82.03638, y: 82.4698}
+    - {x: 83.00325, y: 83.45335}
+    - {x: 83.97012, y: 84.45356}
+    - {x: 84.97034, y: 85.4371}
+    - {x: 85.95388, y: 86.42065}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0, y: 0.5000002}
+    - {x: 0.7999999, y: 1.3999994}
+    - {x: 1.9333322, y: 2.3999984}
+    - {x: 2.9166646, y: 3.3833308}
+    - {x: 3.849997, y: 4.366668}
+    - {x: 4.883342, y: 5.3500147}
+    - {x: 5.883355, y: 6.333361}
+    - {x: 6.8667016, y: 7.383375}
+    - {x: 7.883382, y: 8.366711}
+    - {x: 8.883369, y: 9.433361}
+    - {x: 9.933353, y: 10.450012}
+    - {x: 10.950005, y: 11.48333}
+    - {x: 11.983322, y: 12.54998}
+    - {x: 13.033306, y: 13.583298}
+    - {x: 14.116623, y: 14.583282}
+    - {x: 15.099941, y: 15.599934}
+    - {x: 16.133259, y: 16.649918}
+    - {x: 17.133244, y: 17.666569}
+    - {x: 18.166561, y: 18.699886}
+    - {x: 19.199879, y: 19.716537}
+    - {x: 20.249863, y: 20.749855}
+    - {x: 21.316513, y: 21.833172}
+    - {x: 22.233166, y: 22.949821}
+    - {x: 23.149818, y: 25.733112}
+    - {x: 26.11644, y: 26.71643}
+    - {x: 27.266422, y: 27.766415}
+    - {x: 28.266407, y: 28.783066}
+    - {x: 29.283058, y: 29.78305}
+    - {x: 30.29971, y: 30.783035}
+    - {x: 31.299694, y: 31.83302}
+    - {x: 32.33301, y: 32.84967}
+    - {x: 33.349663, y: 33.86632}
+    - {x: 34.38298, y: 34.916306}
+    - {x: 35.416298, y: 35.949623}
+    - {x: 36.48295, y: 36.999607}
+    - {x: 37.4996, y: 37.99959}
+    - {x: 38.482918, y: 39.016243}
+    - {x: 39.54957, y: 40.04956}
+    - {x: 40.532887, y: 41.049545}
+    - {x: 41.58287, y: 42.066196}
+    - {x: 42.549522, y: 43.06618}
+    - {x: 43.599506, y: 44.082832}
+    - {x: 44.59949, y: 45.132816}
+    - {x: 45.549477, y: 49.11609}
+    - {x: 49.38275, y: 50.066074}
+    - {x: 50.582733, y: 51.049393}
+    - {x: 51.549385, y: 52.049377}
+    - {x: 52.54937, y: 53.01603}
+    - {x: 53.53269, y: 54.016014}
+    - {x: 54.482674, y: 54.966}
+    - {x: 55.465992, y: 55.949318}
+    - {x: 56.44931, y: 56.949303}
+    - {x: 57.38263, y: 57.915955}
+    - {x: 58.282616, y: 58.899273}
+    - {x: 59.3826, y: 59.815926}
+    - {x: 60.315918, y: 60.832577}
+    - {x: 61.315903, y: 61.83256}
+    - {x: 62.365887, y: 62.832546}
+    - {x: 63.33254, y: 63.83253}
+    - {x: 64.299255, y: 64.78269}
+    - {x: 65.2828, y: 65.799576}
+    - {x: 66.33302, y: 66.83313}
+    - {x: 67.166534, y: 67.900024}
+    - {x: 68.000046, y: 70.35055}
+    - {x: 70.66728, y: 71.30075}
+    - {x: 71.80086, y: 72.267624}
+    - {x: 72.75106, y: 73.2345}
+    - {x: 73.751274, y: 74.20137}
+    - {x: 74.68481, y: 75.18491}
+    - {x: 75.65168, y: 76.18513}
+    - {x: 76.685234, y: 77.16867}
+    - {x: 77.68545, y: 78.152214}
+    - {x: 78.58564, y: 79.10242}
+    - {x: 79.56918, y: 80.08596}
+    - {x: 80.60274, y: 81.0695}
+    - {x: 81.53627, y: 82.00304}
+    - {x: 82.48647, y: 82.96991}
+    - {x: 83.48669, y: 83.98679}
+    - {x: 84.47023, y: 84.97034}
+    - {x: 85.4371, y: 85.93721}
+    - {x: 86.43732, y: 86.92075}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0.00000074505806, y: 87.06667}
+    m_values:
+    - 1.1
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 87.06667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114301768013509032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|26_WalkSnake_Neutral_03_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400020, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 87.100006
+    m_tags:
+    - {x: 0, y: 1.6397886}
+    - {x: 20.57143, y: 26.867516}
+    - {x: 44.80713, y: 50.447216}
+    - {x: 65.99581, y: 71.74992}
+    - {x: 85.771774, y: 87.100006}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0, y: 0.5000002}
+    - {x: 0.7999999, y: 1.3999994}
+    - {x: 1.9333322, y: 2.3999984}
+    - {x: 2.9166646, y: 3.3833308}
+    - {x: 3.849997, y: 4.366668}
+    - {x: 4.883342, y: 5.3500147}
+    - {x: 5.883355, y: 6.333361}
+    - {x: 6.8667016, y: 7.383375}
+    - {x: 7.883382, y: 8.366711}
+    - {x: 8.883369, y: 9.433361}
+    - {x: 9.933353, y: 10.450012}
+    - {x: 10.950005, y: 11.48333}
+    - {x: 11.983322, y: 12.54998}
+    - {x: 13.033306, y: 13.583298}
+    - {x: 14.116623, y: 14.583282}
+    - {x: 15.099941, y: 15.599934}
+    - {x: 16.133259, y: 16.649918}
+    - {x: 17.133244, y: 17.666569}
+    - {x: 18.166561, y: 18.699886}
+    - {x: 19.199879, y: 19.716537}
+    - {x: 20.249863, y: 20.749855}
+    - {x: 21.316513, y: 21.833172}
+    - {x: 22.233166, y: 22.949821}
+    - {x: 23.149818, y: 25.733112}
+    - {x: 26.11644, y: 26.71643}
+    - {x: 27.266422, y: 27.766415}
+    - {x: 28.266407, y: 28.783066}
+    - {x: 29.283058, y: 29.78305}
+    - {x: 30.29971, y: 30.783035}
+    - {x: 31.299694, y: 31.83302}
+    - {x: 32.33301, y: 32.84967}
+    - {x: 33.349663, y: 33.86632}
+    - {x: 34.38298, y: 34.916306}
+    - {x: 35.416298, y: 35.949623}
+    - {x: 36.48295, y: 36.999607}
+    - {x: 37.4996, y: 37.99959}
+    - {x: 38.482918, y: 39.016243}
+    - {x: 39.54957, y: 40.04956}
+    - {x: 40.532887, y: 41.049545}
+    - {x: 41.58287, y: 42.066196}
+    - {x: 42.549522, y: 43.06618}
+    - {x: 43.599506, y: 44.082832}
+    - {x: 44.59949, y: 45.132816}
+    - {x: 45.549477, y: 49.11609}
+    - {x: 49.38275, y: 50.066074}
+    - {x: 50.582733, y: 51.049393}
+    - {x: 51.549385, y: 52.049377}
+    - {x: 52.54937, y: 53.01603}
+    - {x: 53.53269, y: 54.016014}
+    - {x: 54.482674, y: 54.966}
+    - {x: 55.465992, y: 55.949318}
+    - {x: 56.44931, y: 56.949303}
+    - {x: 57.38263, y: 57.915955}
+    - {x: 58.282616, y: 58.899273}
+    - {x: 59.3826, y: 59.815926}
+    - {x: 60.315918, y: 60.832577}
+    - {x: 61.315903, y: 61.83256}
+    - {x: 62.365887, y: 62.832546}
+    - {x: 63.33254, y: 63.83253}
+    - {x: 64.299255, y: 64.78269}
+    - {x: 65.2828, y: 65.799576}
+    - {x: 66.33302, y: 66.83313}
+    - {x: 67.166534, y: 67.900024}
+    - {x: 68.000046, y: 70.35055}
+    - {x: 70.66728, y: 71.30075}
+    - {x: 71.80086, y: 72.267624}
+    - {x: 72.75106, y: 73.2345}
+    - {x: 73.751274, y: 74.20137}
+    - {x: 74.68481, y: 75.18491}
+    - {x: 75.65168, y: 76.18513}
+    - {x: 76.685234, y: 77.16867}
+    - {x: 77.68545, y: 78.152214}
+    - {x: 78.58564, y: 79.10242}
+    - {x: 79.56918, y: 80.08596}
+    - {x: 80.60274, y: 81.0695}
+    - {x: 81.53627, y: 82.00304}
+    - {x: 82.48647, y: 82.96991}
+    - {x: 83.48669, y: 83.98679}
+    - {x: 84.47023, y: 84.97034}
+    - {x: 85.4371, y: 85.93721}
+    - {x: 86.43732, y: 86.92075}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0, y: 0.91666645}
+    - {x: 1.3999994, y: 1.9166656}
+    - {x: 2.4333317, y: 2.8666646}
+    - {x: 3.3833308, y: 3.849997}
+    - {x: 4.383335, y: 4.850008}
+    - {x: 5.3833485, y: 5.8500214}
+    - {x: 6.350028, y: 6.8500347}
+    - {x: 7.3667083, y: 7.850048}
+    - {x: 8.4000435, y: 8.850037}
+    - {x: 9.416695, y: 9.916687}
+    - {x: 10.450012, y: 10.933338}
+    - {x: 11.48333, y: 11.983322}
+    - {x: 12.533314, y: 13.049973}
+    - {x: 13.583298, y: 14.0999565}
+    - {x: 14.599949, y: 15.083275}
+    - {x: 15.599934, y: 16.116592}
+    - {x: 16.649918, y: 17.116577}
+    - {x: 17.683235, y: 18.149895}
+    - {x: 18.68322, y: 19.216545}
+    - {x: 19.74987, y: 20.233196}
+    - {x: 20.749855, y: 21.316513}
+    - {x: 21.816505, y: 22.416496}
+    - {x: 22.749825, y: 26.199772}
+    - {x: 26.71643, y: 27.249756}
+    - {x: 27.766415, y: 28.24974}
+    - {x: 28.783066, y: 29.266392}
+    - {x: 29.799717, y: 30.283043}
+    - {x: 30.783035, y: 31.299694}
+    - {x: 31.83302, y: 32.316345}
+    - {x: 32.84967, y: 33.349663}
+    - {x: 33.882988, y: 34.38298}
+    - {x: 34.89964, y: 35.44963}
+    - {x: 35.932957, y: 36.48295}
+    - {x: 36.999607, y: 37.482933}
+    - {x: 38.01626, y: 38.46625}
+    - {x: 39.016243, y: 39.516235}
+    - {x: 40.032894, y: 40.549553}
+    - {x: 41.049545, y: 41.549538}
+    - {x: 42.082863, y: 42.532856}
+    - {x: 43.082848, y: 43.566174}
+    - {x: 44.082832, y: 44.59949}
+    - {x: 45.132816, y: 45.649475}
+    - {x: 45.71614, y: 45.76614}
+    - {x: 46.016136, y: 49.549416}
+    - {x: 50.049408, y: 50.5494}
+    - {x: 51.06606, y: 51.549385}
+    - {x: 52.049377, y: 52.532703}
+    - {x: 53.032696, y: 53.499355}
+    - {x: 54.016014, y: 54.466007}
+    - {x: 54.982666, y: 55.449326}
+    - {x: 55.949318, y: 56.44931}
+    - {x: 56.982635, y: 57.399296}
+    - {x: 57.88262, y: 58.365948}
+    - {x: 58.81594, y: 59.349266}
+    - {x: 59.832592, y: 60.315918}
+    - {x: 60.832577, y: 61.299236}
+    - {x: 61.849228, y: 62.332554}
+    - {x: 62.849213, y: 63.33254}
+    - {x: 63.849197, y: 64.299255}
+    - {x: 64.81603, y: 65.29947}
+    - {x: 65.816246, y: 66.31635}
+    - {x: 66.78312, y: 67.249886}
+    - {x: 67.68331, y: 70.78397}
+    - {x: 71.28408, y: 71.76752}
+    - {x: 72.284294, y: 72.71772}
+    - {x: 73.25117, y: 73.71793}
+    - {x: 74.21804, y: 74.66814}
+    - {x: 75.201584, y: 75.66835}
+    - {x: 76.2018, y: 76.668564}
+    - {x: 77.152, y: 77.61877}
+    - {x: 78.168884, y: 78.58564}
+    - {x: 79.10242, y: 79.56918}
+    - {x: 80.08596, y: 80.58607}
+    - {x: 81.0695, y: 81.5196}
+    - {x: 82.03638, y: 82.4698}
+    - {x: 83.00325, y: 83.45335}
+    - {x: 83.97012, y: 84.45356}
+    - {x: 84.97034, y: 85.4371}
+    - {x: 85.95388, y: 86.42065}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 87.100006
+    m_tagPositions:
+    - {x: 0.00000074505806, y: 87.100006}
+    m_values:
+    - 1.1
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 87.100006
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 87.100006
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114350961197478708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|02_TIP_Neutral_04_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400004, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 35.36667
+    m_tags:
+    - {x: 1.12, y: 3.4499984}
+    - {x: 4.9089828, y: 8.465647}
+    - {x: 9.903147, y: 14.09981}
+    - {x: 15.543169, y: 20.113165}
+    - {x: 22.429571, y: 24.492903}
+    - {x: 26.629622, y: 28.212954}
+    - {x: 29.814516, y: 33.21118}
+    - {x: 34.954876, y: 35.36667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 0, y: 0.48333353}
+    - {x: 0.6333334, y: 4.099998}
+    - {x: 4.1833324, y: 5.616685}
+    - {x: 5.8500214, y: 9.166698}
+    - {x: 9.316696, y: 11.766659}
+    - {x: 11.983322, y: 14.933277}
+    - {x: 15.19994, y: 17.583237}
+    - {x: 17.783234, y: 20.58319}
+    - {x: 20.86652, y: 24.849792}
+    - {x: 25.133121, y: 28.599735}
+    - {x: 28.783066, y: 33.432995}
+    - {x: 33.716324, y: 34.316315}
+    - {x: 34.56149, y: 35.36667}
+    m_footStepData:
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 0, y: 0.71666664}
+    - {x: 0.88333315, y: 3.8833303}
+    - {x: 3.9833302, y: 6.033357}
+    - {x: 6.333361, y: 8.933369}
+    - {x: 9.0667, y: 12.13332}
+    - {x: 12.433315, y: 14.599949}
+    - {x: 14.833279, y: 17.949898}
+    - {x: 18.26656, y: 20.949852}
+    - {x: 21.266514, y: 25.23312}
+    - {x: 25.449783, y: 28.933064}
+    - {x: 29.083061, y: 33.78299}
+    - {x: 34.24738, y: 35.35565}
+    m_footStepData:
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 35.4
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 1.813675, y: 35.36667}
+    - {x: 0, y: 1.7046442}
+    m_values:
+    - 1.1
+    - 1.3
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 35.4
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114431216288818200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65aaaabfda1387c43aa9a38099837301, type: 3}
+  m_Name: AnimUprisingRig|01_IdleLoop_Final
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400002, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  SecondaryClips:
+  - {fileID: 7400084, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400048, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400080, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400076, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400072, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400056, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400052, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400064, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400060, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400088, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  - {fileID: 7400068, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  TransitionClips: []
+  Tags: 0
+  FavourTags: 0
+  MinLoops: 1
+  MaxLoops: 2
+  Traits: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+--- !u!114 &114440631978459154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|03_WalkStep_Neutral_02_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400006, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 62.733337
+    m_tags:
+    - {x: 1.75, y: 6.393339}
+    - {x: 8.213652, y: 13.053903}
+    - {x: 14.761968, y: 19.374622}
+    - {x: 21.450794, y: 32.658096}
+    - {x: 34.437393, y: 39.963135}
+    - {x: 41.597298, y: 46.00698}
+    - {x: 48.003574, y: 52.091507}
+    - {x: 54.239944, y: 58.434998}
+    - {x: 60.48578, y: 62.733337}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 0.23333333}
+    - {x: 0.6000001, y: 3.4333308}
+    - {x: 3.8666637, y: 6.6166983}
+    - {x: 6.98337, y: 9.750023}
+    - {x: 10.3000145, y: 13.8166275}
+    - {x: 14.116623, y: 15.883263}
+    - {x: 16.016594, y: 17.016579}
+    - {x: 17.183243, y: 20.049866}
+    - {x: 20.416527, y: 27.166424}
+    - {x: 27.616417, y: 28.316406}
+    - {x: 28.749733, y: 29.316391}
+    - {x: 29.466389, y: 33.482994}
+    - {x: 33.849655, y: 40.349556}
+    - {x: 40.74955, y: 43.832836}
+    - {x: 44.33283, y: 46.499462}
+    - {x: 46.899456, y: 49.84941}
+    - {x: 50.31607, y: 52.54937}
+    - {x: 52.91603, y: 55.09933}
+    - {x: 55.532658, y: 59.315933}
+    - {x: 59.715927, y: 61.6159}
+    - {x: 61.74923, y: 62.599216}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 0.6333334}
+    - {x: 0.88333315, y: 3.0499978}
+    - {x: 3.3666642, y: 7.0167036}
+    - {x: 7.283374, y: 9.333363}
+    - {x: 9.71669, y: 13.4333}
+    - {x: 13.799961, y: 16.149925}
+    - {x: 16.749916, y: 19.716537}
+    - {x: 20.083199, y: 22.81649}
+    - {x: 23.383148, y: 26.866428}
+    - {x: 27.18309, y: 27.849747}
+    - {x: 27.916412, y: 28.849731}
+    - {x: 29.166393, y: 33.21633}
+    - {x: 33.54966, y: 36.882942}
+    - {x: 37.382935, y: 40.732883}
+    - {x: 41.11621, y: 43.466175}
+    - {x: 43.782837, y: 46.88279}
+    - {x: 47.24945, y: 49.466084}
+    - {x: 49.79941, y: 52.96603}
+    - {x: 53.266026, y: 54.699337}
+    - {x: 55.016, y: 58.99927}
+    - {x: 59.399265, y: 61.915894}
+    - {x: 62.451077, y: 62.73315}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 62.733337}
+    m_values:
+    - 1.2
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 62.76667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114509505560813520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|03_WalkStep_Neutral_02_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400032, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 62.733337
+    m_tags:
+    - {x: 1.75, y: 6.393339}
+    - {x: 8.213652, y: 13.053903}
+    - {x: 14.761968, y: 19.374622}
+    - {x: 21.450794, y: 32.658096}
+    - {x: 34.437393, y: 39.963135}
+    - {x: 41.597298, y: 46.00698}
+    - {x: 48.003574, y: 52.091507}
+    - {x: 54.239944, y: 58.434998}
+    - {x: 60.48578, y: 62.733337}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 0.6333334}
+    - {x: 0.88333315, y: 3.0499978}
+    - {x: 3.3666642, y: 7.0167036}
+    - {x: 7.283374, y: 9.333363}
+    - {x: 9.71669, y: 13.4333}
+    - {x: 13.799961, y: 16.149925}
+    - {x: 16.749916, y: 19.716537}
+    - {x: 20.083199, y: 22.81649}
+    - {x: 23.383148, y: 26.866428}
+    - {x: 27.18309, y: 27.849747}
+    - {x: 27.916412, y: 28.849731}
+    - {x: 29.166393, y: 33.21633}
+    - {x: 33.54966, y: 36.882942}
+    - {x: 37.382935, y: 40.732883}
+    - {x: 41.11621, y: 43.466175}
+    - {x: 43.782837, y: 46.88279}
+    - {x: 47.24945, y: 49.466084}
+    - {x: 49.79941, y: 52.96603}
+    - {x: 53.266026, y: 54.699337}
+    - {x: 55.016, y: 58.99927}
+    - {x: 59.399265, y: 61.915894}
+    - {x: 62.451077, y: 62.73315}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 0.23333333}
+    - {x: 0.6000001, y: 3.4333308}
+    - {x: 3.8666637, y: 6.6166983}
+    - {x: 6.98337, y: 9.750023}
+    - {x: 10.3000145, y: 13.8166275}
+    - {x: 14.116623, y: 15.883263}
+    - {x: 16.016594, y: 17.016579}
+    - {x: 17.183243, y: 20.049866}
+    - {x: 20.416527, y: 27.166424}
+    - {x: 27.616417, y: 28.316406}
+    - {x: 28.749733, y: 29.316391}
+    - {x: 29.466389, y: 33.482994}
+    - {x: 33.849655, y: 40.349556}
+    - {x: 40.74955, y: 43.832836}
+    - {x: 44.33283, y: 46.499462}
+    - {x: 46.899456, y: 49.84941}
+    - {x: 50.31607, y: 52.54937}
+    - {x: 52.91603, y: 55.09933}
+    - {x: 55.532658, y: 59.315933}
+    - {x: 59.715927, y: 61.6159}
+    - {x: 61.74923, y: 62.599216}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 62.76667
+    m_tagPositions:
+    - {x: 0, y: 62.733337}
+    m_values:
+    - 1.2
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 62.76667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 62.733337
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114530113342257764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|11_WalkPlant_Neutral_05_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400024, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 35.86667
+    m_tags:
+    - {x: 1.6517538, y: 4.5606976}
+    - {x: 6.1940107, y: 8.620282}
+    - {x: 10.434735, y: 12.902848}
+    - {x: 14.877458, y: 17.722233}
+    - {x: 19.698795, y: 21.497284}
+    - {x: 22.7258, y: 23.896523}
+    - {x: 25.6641, y: 26.66742}
+    - {x: 28.41742, y: 30.425165}
+    - {x: 32.151726, y: 35.70799}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 35.86667
+    m_tagPositions:
+    - {x: 0, y: 0.65000004}
+    - {x: 0.98333305, y: 1.5833325}
+    - {x: 2.083332, y: 2.5499983}
+    - {x: 3.0666645, y: 3.5499973}
+    - {x: 4.066664, y: 4.566671}
+    - {x: 5.016677, y: 5.5500174}
+    - {x: 6.066691, y: 6.5500307}
+    - {x: 7.0500374, y: 7.5167103}
+    - {x: 8.033382, y: 8.516708}
+    - {x: 8.9667015, y: 9.233364}
+    - {x: 9.633358, y: 10.18335}
+    - {x: 10.700008, y: 11.150002}
+    - {x: 11.66666, y: 12.13332}
+    - {x: 12.649979, y: 13.133305}
+    - {x: 13.466633, y: 13.999958}
+    - {x: 14.49995, y: 14.96661}
+    - {x: 15.499935, y: 15.966595}
+    - {x: 16.49992, y: 16.983246}
+    - {x: 17.499905, y: 17.98323}
+    - {x: 18.333225, y: 18.899883}
+    - {x: 19.399876, y: 19.883202}
+    - {x: 20.416527, y: 20.883186}
+    - {x: 21.416512, y: 21.866505}
+    - {x: 22.316498, y: 22.833157}
+    - {x: 23.349815, y: 23.833141}
+    - {x: 24.2998, y: 24.649796}
+    - {x: 25.04979, y: 25.583115}
+    - {x: 26.099773, y: 26.5831}
+    - {x: 27.016426, y: 27.283089}
+    - {x: 27.64975, y: 28.233074}
+    - {x: 28.749733, y: 29.216393}
+    - {x: 29.733051, y: 30.19971}
+    - {x: 30.66637, y: 31.166363}
+    - {x: 31.683022, y: 32.14968}
+    - {x: 32.683006, y: 33.166332}
+    - {x: 33.68299, y: 34.14965}
+    - {x: 34.589447, y: 35.86667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 35.86667
+    m_tagPositions:
+    - {x: 0, y: 1.0666664}
+    - {x: 1.5833325, y: 2.0499988}
+    - {x: 2.5833316, y: 3.0333312}
+    - {x: 3.566664, y: 4.0499973}
+    - {x: 4.583338, y: 5.112671}
+    - {x: 5.48335, y: 6.050024}
+    - {x: 6.5666976, y: 7.0167036}
+    - {x: 7.550044, y: 8.016716}
+    - {x: 8.516708, y: 8.933369}
+    - {x: 9.200031, y: 9.683357}
+    - {x: 10.200016, y: 10.650009}
+    - {x: 11.183334, y: 11.6333275}
+    - {x: 12.149986, y: 12.616646}
+    - {x: 13.116638, y: 13.516632}
+    - {x: 13.966625, y: 14.466618}
+    - {x: 14.999943, y: 15.449936}
+    - {x: 15.983261, y: 16.466587}
+    - {x: 16.999912, y: 17.483238}
+    - {x: 17.999897, y: 18.433224}
+    - {x: 18.799885, y: 19.38321}
+    - {x: 19.916534, y: 20.366528}
+    - {x: 20.91652, y: 21.383179}
+    - {x: 21.866505, y: 22.299831}
+    - {x: 22.833157, y: 23.333149}
+    - {x: 23.833141, y: 24.283134}
+    - {x: 24.616463, y: 25.083122}
+    - {x: 25.599781, y: 26.083107}
+    - {x: 26.5831, y: 26.983093}
+    - {x: 27.283089, y: 27.683083}
+    - {x: 28.216408, y: 28.7164}
+    - {x: 29.249725, y: 29.699718}
+    - {x: 30.216377, y: 30.683037}
+    - {x: 31.18303, y: 31.649689}
+    - {x: 32.166348, y: 32.649673}
+    - {x: 33.149666, y: 33.666325}
+    - {x: 34.229668, y: 35.86667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 35.86667
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 35.9
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114588631242655438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|08_WalkStartStop_Neutral_03_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400034, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 69.06667
+    m_tags:
+    - {x: 2.0703125, y: 4.9336433}
+    - {x: 7.162943, y: 9.759607}
+    - {x: 11.433435, y: 14.136766}
+    - {x: 15.761615, y: 18.144947}
+    - {x: 20.3969, y: 22.300232}
+    - {x: 24.491638, y: 25.91497}
+    - {x: 27.838799, y: 31.02213}
+    - {x: 32.856113, y: 34.97278}
+    - {x: 36.564575, y: 38.52124}
+    - {x: 40.043663, y: 43.112732}
+    - {x: 44.64033, y: 45.49986}
+    - {x: 47.191895, y: 49.270477}
+    - {x: 50.643524, y: 51.579243}
+    - {x: 52.990482, y: 56.592884}
+    - {x: 58.09524, y: 59.335712}
+    - {x: 61.22829, y: 63.4893}
+    - {x: 65.16313, y: 67.07534}
+    - {x: 68.82339, y: 69.06667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 0.8999998}
+    - {x: 1.3999994, y: 1.8333323}
+    - {x: 2.3833318, y: 2.8666646}
+    - {x: 3.3999975, y: 3.8833303}
+    - {x: 4.433336, y: 4.9333425}
+    - {x: 5.433349, y: 9.983353}
+    - {x: 10.316681, y: 10.850006}
+    - {x: 11.366665, y: 11.816658}
+    - {x: 12.349983, y: 12.816643}
+    - {x: 13.366634, y: 13.84996}
+    - {x: 14.433285, y: 18.383224}
+    - {x: 18.466557, y: 18.883217}
+    - {x: 19.483208, y: 19.916534}
+    - {x: 20.44986, y: 20.91652}
+    - {x: 21.46651, y: 21.949837}
+    - {x: 22.516495, y: 26.433102}
+    - {x: 26.81643, y: 27.333088}
+    - {x: 27.88308, y: 28.34974}
+    - {x: 28.89973, y: 29.36639}
+    - {x: 29.916382, y: 30.416374}
+    - {x: 30.916367, y: 35.299633}
+    - {x: 35.68296, y: 36.216286}
+    - {x: 36.74961, y: 37.232937}
+    - {x: 37.78293, y: 38.266254}
+    - {x: 38.79958, y: 43.91617}
+    - {x: 44.41616, y: 44.916153}
+    - {x: 45.48281, y: 46.016136}
+    - {x: 46.2828, y: 49.94941}
+    - {x: 50.4994, y: 51.01606}
+    - {x: 51.56605, y: 52.13271}
+    - {x: 52.41604, y: 57.182632}
+    - {x: 57.765957, y: 58.232616}
+    - {x: 58.76594, y: 59.249268}
+    - {x: 59.79926, y: 63.965862}
+    - {x: 64.349266, y: 64.86604}
+    - {x: 65.39949, y: 65.86626}
+    - {x: 66.416374, y: 66.93315}
+    - {x: 67.4717, y: 69.06667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 0.46666685}
+    - {x: 0.78333324, y: 1.3499994}
+    - {x: 1.8999989, y: 2.3499985}
+    - {x: 2.899998, y: 3.3833308}
+    - {x: 3.9166636, y: 4.416669}
+    - {x: 4.9333425, y: 5.4166822}
+    - {x: 5.8333545, y: 10.36668}
+    - {x: 10.900005, y: 11.333332}
+    - {x: 11.866657, y: 12.31665}
+    - {x: 12.849976, y: 13.333302}
+    - {x: 13.89996, y: 14.416618}
+    - {x: 14.916611, y: 18.533222}
+    - {x: 18.983215, y: 19.433208}
+    - {x: 19.966534, y: 20.416527}
+    - {x: 20.949852, y: 21.449844}
+    - {x: 21.98317, y: 22.499828}
+    - {x: 22.966488, y: 26.866428}
+    - {x: 27.383087, y: 27.849747}
+    - {x: 28.399738, y: 28.866398}
+    - {x: 29.399723, y: 29.899715}
+    - {x: 30.449707, y: 30.916367}
+    - {x: 31.36636, y: 35.699627}
+    - {x: 36.24962, y: 36.716278}
+    - {x: 37.26627, y: 37.749596}
+    - {x: 38.28292, y: 38.79958}
+    - {x: 39.21624, y: 43.466175}
+    - {x: 43.81617, y: 44.41616}
+    - {x: 44.949486, y: 45.44948}
+    - {x: 45.99947, y: 49.449417}
+    - {x: 49.89941, y: 50.4994}
+    - {x: 51.049393, y: 51.549385}
+    - {x: 52.116043, y: 56.832638}
+    - {x: 57.215965, y: 57.715958}
+    - {x: 58.26595, y: 58.749275}
+    - {x: 59.2826, y: 59.782593}
+    - {x: 60.21592, y: 64.36594}
+    - {x: 64.88271, y: 65.36615}
+    - {x: 65.88293, y: 66.416374}
+    - {x: 66.93315, y: 67.4666}
+    - {x: 67.937386, y: 69.06442}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 1.4766665}
+    m_values:
+    - 0.7
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 69.06667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114644053611043028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|24_WalkStraight_Neutral_01_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400018, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 1
+  IgnoreEdges: 0
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks: []
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 9.766666
+    m_tagPositions:
+    - {x: 0.36666676, y: 0.8333332}
+    - {x: 1.3666661, y: 1.849999}
+    - {x: 2.3666651, y: 2.8833313}
+    - {x: 3.3999975, y: 3.899997}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 9.766666
+    m_tagPositions:
+    - {x: 0.8666665, y: 1.3333328}
+    - {x: 1.849999, y: 2.3499985}
+    - {x: 2.8666646, y: 3.3666642}
+    - {x: 3.9118834, y: 4.0660286}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 9.766666
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 9.766666
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 9.766666
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 9.766666
+    m_tagPositions:
+    - {x: 0, y: 4.0664415}
+    m_values:
+    - 0.8
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 9.766666
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 9.766666
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 9.766666
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114690715652726362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|08_WalkStartStop_Neutral_03_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400008, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 69.06667
+    m_tags:
+    - {x: 2.0703125, y: 4.9336433}
+    - {x: 7.162943, y: 9.759607}
+    - {x: 11.433435, y: 14.136766}
+    - {x: 15.761615, y: 18.144947}
+    - {x: 20.3969, y: 22.300232}
+    - {x: 24.491638, y: 25.91497}
+    - {x: 27.838799, y: 31.02213}
+    - {x: 32.856113, y: 34.97278}
+    - {x: 36.564575, y: 38.52124}
+    - {x: 40.043663, y: 43.112732}
+    - {x: 44.64033, y: 45.49986}
+    - {x: 47.191895, y: 49.270477}
+    - {x: 50.643524, y: 51.579243}
+    - {x: 52.990482, y: 56.592884}
+    - {x: 58.09524, y: 59.335712}
+    - {x: 61.22829, y: 63.4893}
+    - {x: 65.16313, y: 67.07534}
+    - {x: 68.82339, y: 69.06667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 0.46666685}
+    - {x: 0.78333324, y: 1.3499994}
+    - {x: 1.8999989, y: 2.3499985}
+    - {x: 2.899998, y: 3.3833308}
+    - {x: 3.9166636, y: 4.416669}
+    - {x: 4.9333425, y: 5.4166822}
+    - {x: 5.8333545, y: 10.36668}
+    - {x: 10.900005, y: 11.333332}
+    - {x: 11.866657, y: 12.31665}
+    - {x: 12.849976, y: 13.333302}
+    - {x: 13.89996, y: 14.416618}
+    - {x: 14.916611, y: 18.533222}
+    - {x: 18.983215, y: 19.433208}
+    - {x: 19.966534, y: 20.416527}
+    - {x: 20.949852, y: 21.449844}
+    - {x: 21.98317, y: 22.499828}
+    - {x: 22.966488, y: 26.866428}
+    - {x: 27.383087, y: 27.849747}
+    - {x: 28.399738, y: 28.866398}
+    - {x: 29.399723, y: 29.899715}
+    - {x: 30.449707, y: 30.916367}
+    - {x: 31.36636, y: 35.699627}
+    - {x: 36.24962, y: 36.716278}
+    - {x: 37.26627, y: 37.749596}
+    - {x: 38.28292, y: 38.79958}
+    - {x: 39.21624, y: 43.466175}
+    - {x: 43.81617, y: 44.41616}
+    - {x: 44.949486, y: 45.44948}
+    - {x: 45.99947, y: 49.449417}
+    - {x: 49.89941, y: 50.4994}
+    - {x: 51.049393, y: 51.549385}
+    - {x: 52.116043, y: 56.832638}
+    - {x: 57.215965, y: 57.715958}
+    - {x: 58.26595, y: 58.749275}
+    - {x: 59.2826, y: 59.782593}
+    - {x: 60.21592, y: 64.36594}
+    - {x: 64.88271, y: 65.36615}
+    - {x: 65.88293, y: 66.416374}
+    - {x: 66.93315, y: 67.4666}
+    - {x: 67.937386, y: 69.06442}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 0.8999998}
+    - {x: 1.3999994, y: 1.8333323}
+    - {x: 2.3833318, y: 2.8666646}
+    - {x: 3.3999975, y: 3.8833303}
+    - {x: 4.433336, y: 4.9333425}
+    - {x: 5.433349, y: 9.983353}
+    - {x: 10.316681, y: 10.850006}
+    - {x: 11.366665, y: 11.816658}
+    - {x: 12.349983, y: 12.816643}
+    - {x: 13.366634, y: 13.84996}
+    - {x: 14.433285, y: 18.383224}
+    - {x: 18.466557, y: 18.883217}
+    - {x: 19.483208, y: 19.916534}
+    - {x: 20.44986, y: 20.91652}
+    - {x: 21.46651, y: 21.949837}
+    - {x: 22.516495, y: 26.433102}
+    - {x: 26.81643, y: 27.333088}
+    - {x: 27.88308, y: 28.34974}
+    - {x: 28.89973, y: 29.36639}
+    - {x: 29.916382, y: 30.416374}
+    - {x: 30.916367, y: 35.299633}
+    - {x: 35.68296, y: 36.216286}
+    - {x: 36.74961, y: 37.232937}
+    - {x: 37.78293, y: 38.266254}
+    - {x: 38.79958, y: 43.91617}
+    - {x: 44.41616, y: 44.916153}
+    - {x: 45.48281, y: 46.016136}
+    - {x: 46.2828, y: 49.94941}
+    - {x: 50.4994, y: 51.01606}
+    - {x: 51.56605, y: 52.13271}
+    - {x: 52.41604, y: 57.182632}
+    - {x: 57.765957, y: 58.232616}
+    - {x: 58.76594, y: 59.249268}
+    - {x: 59.79926, y: 63.965862}
+    - {x: 64.349266, y: 64.86604}
+    - {x: 65.39949, y: 65.86626}
+    - {x: 66.416374, y: 66.93315}
+    - {x: 67.4717, y: 69.06667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 69.100006
+    m_tagPositions:
+    - {x: 0, y: 1.5833329}
+    m_values:
+    - 0.7
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 69.100006
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 69.100006
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114715881070470994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|02_TIP_Neutral_04_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400030, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 35.36667
+    m_tags:
+    - {x: 1.12, y: 3.4499984}
+    - {x: 4.9089828, y: 8.465647}
+    - {x: 9.903147, y: 14.09981}
+    - {x: 15.543169, y: 20.113165}
+    - {x: 22.429571, y: 24.492903}
+    - {x: 26.629622, y: 28.212954}
+    - {x: 29.814516, y: 33.21118}
+    - {x: 34.954876, y: 35.36667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 0, y: 0.71666664}
+    - {x: 0.88333315, y: 3.8833303}
+    - {x: 3.9833302, y: 6.033357}
+    - {x: 6.333361, y: 8.933369}
+    - {x: 9.0667, y: 12.13332}
+    - {x: 12.433315, y: 14.599949}
+    - {x: 14.833279, y: 17.949898}
+    - {x: 18.26656, y: 20.949852}
+    - {x: 21.266514, y: 25.23312}
+    - {x: 25.449783, y: 28.933064}
+    - {x: 29.083061, y: 33.78299}
+    - {x: 34.24738, y: 35.35565}
+    m_footStepData:
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 0, y: 0.48333353}
+    - {x: 0.6333334, y: 4.099998}
+    - {x: 4.1833324, y: 5.616685}
+    - {x: 5.8500214, y: 9.166698}
+    - {x: 9.316696, y: 11.766659}
+    - {x: 11.983322, y: 14.933277}
+    - {x: 15.19994, y: 17.583237}
+    - {x: 17.783234, y: 20.58319}
+    - {x: 20.86652, y: 24.849792}
+    - {x: 25.133121, y: 28.599735}
+    - {x: 28.783066, y: 33.432995}
+    - {x: 33.716324, y: 34.316315}
+    - {x: 34.56149, y: 35.36667}
+    m_footStepData:
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+    - Pace: 0
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 35.4
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 35.4
+    m_tagPositions:
+    - {x: 1.813675, y: 35.36667}
+    - {x: 0, y: 1.7046442}
+    m_values:
+    - 1.1
+    - 1.3
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 35.4
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 35.36667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114771201776498350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|10_WalkCounterStart_Neutral_03_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400010, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.700005
+    m_tags:
+    - {x: 2.5761719, y: 6.719179}
+    - {x: 9.016054, y: 12.057991}
+    - {x: 14.173225, y: 16.861261}
+    - {x: 18.900003, y: 21.706032}
+    - {x: 23.751226, y: 27.658302}
+    - {x: 29.781769, y: 33.700005}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 33.733337
+    m_tagPositions:
+    - {x: 0, y: 0.5666668}
+    - {x: 0.78333324, y: 1.0333331}
+    - {x: 1.5666659, y: 2.0166655}
+    - {x: 2.5499983, y: 3.0166645}
+    - {x: 3.5499973, y: 4.0499973}
+    - {x: 4.6000047, y: 5.1000113}
+    - {x: 5.48335, y: 6.8833685}
+    - {x: 7.100038, y: 7.3167076}
+    - {x: 7.8000474, y: 8.333378}
+    - {x: 8.83337, y: 9.30003}
+    - {x: 9.833355, y: 10.333347}
+    - {x: 10.750008, y: 12.666645}
+    - {x: 12.749977, y: 13.333302}
+    - {x: 13.84996, y: 14.31662}
+    - {x: 14.799946, y: 15.316605}
+    - {x: 15.683266, y: 17.449905}
+    - {x: 17.583237, y: 18.08323}
+    - {x: 18.599888, y: 19.09988}
+    - {x: 19.599873, y: 20.116531}
+    - {x: 20.533192, y: 22.383163}
+    - {x: 22.44983, y: 22.916489}
+    - {x: 23.449814, y: 23.88314}
+    - {x: 24.3998, y: 24.883125}
+    - {x: 25.349785, y: 25.866444}
+    - {x: 26.283104, y: 27.816414}
+    - {x: 28.083076, y: 28.416405}
+    - {x: 28.933064, y: 29.433056}
+    - {x: 29.966381, y: 30.466373}
+    - {x: 30.999699, y: 31.516357}
+    - {x: 32.0567, y: 33.695076}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 33.733337
+    m_tagPositions:
+    - {x: 0, y: 0.8999998}
+    - {x: 1.0499997, y: 1.466666}
+    - {x: 2.0666654, y: 2.516665}
+    - {x: 3.0499978, y: 3.516664}
+    - {x: 4.083331, y: 4.583338}
+    - {x: 5.1000113, y: 5.6833525}
+    - {x: 5.766687, y: 7.700046}
+    - {x: 8.333378, y: 8.783371}
+    - {x: 9.333363, y: 9.800022}
+    - {x: 10.333347, y: 12.766644}
+    - {x: 13.316635, y: 13.799961}
+    - {x: 14.333286, y: 14.799946}
+    - {x: 15.283272, y: 17.583237}
+    - {x: 18.08323, y: 18.583221}
+    - {x: 19.09988, y: 19.599873}
+    - {x: 20.099865, y: 22.516495}
+    - {x: 22.899822, y: 23.383148}
+    - {x: 23.916473, y: 24.366467}
+    - {x: 24.883125, y: 25.383118}
+    - {x: 25.866444, y: 26.449768}
+    - {x: 26.516434, y: 28.216408}
+    - {x: 28.48307, y: 28.816399}
+    - {x: 29.483055, y: 29.933048}
+    - {x: 30.48304, y: 30.966366}
+    - {x: 31.550764, y: 33.698994}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.733337
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.733337
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.733337
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114861250804832656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|28_29_WalkCircleSpiral_Neutral_02_FINAL_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400022, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 72.200005
+    m_tags:
+    - {x: 0, y: 2.8099995}
+    - {x: 33.866665, y: 37.369995}
+    - {x: 68.74869, y: 72.200005}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Left
+    m_clipLength: 72.23334
+    m_tagPositions:
+    - {x: 0, y: 0.28333336}
+    - {x: 0.65000004, y: 1.2166662}
+    - {x: 1.7666657, y: 2.2499986}
+    - {x: 2.8166647, y: 3.3166642}
+    - {x: 3.849997, y: 4.3500013}
+    - {x: 4.9000087, y: 5.4166822}
+    - {x: 5.916689, y: 6.4500294}
+    - {x: 6.966703, y: 7.4833765}
+    - {x: 8.016716, y: 8.533375}
+    - {x: 9.050034, y: 9.583359}
+    - {x: 10.13335, y: 10.650009}
+    - {x: 11.200001, y: 11.733326}
+    - {x: 12.249985, y: 12.799976}
+    - {x: 13.349968, y: 13.866627}
+    - {x: 14.3832855, y: 14.933277}
+    - {x: 15.466602, y: 16.016594}
+    - {x: 16.533253, y: 17.083244}
+    - {x: 17.633236, y: 18.166561}
+    - {x: 18.73322, y: 19.266544}
+    - {x: 19.783203, y: 20.349861}
+    - {x: 20.883186, y: 21.433178}
+    - {x: 21.949837, y: 22.499828}
+    - {x: 22.99982, y: 23.583145}
+    - {x: 24.11647, y: 24.666462}
+    - {x: 25.199787, y: 25.766445}
+    - {x: 26.283104, y: 26.883095}
+    - {x: 27.399754, y: 27.966412}
+    - {x: 28.48307, y: 29.016396}
+    - {x: 29.533054, y: 30.083046}
+    - {x: 30.583038, y: 31.166363}
+    - {x: 31.649689, y: 32.266346}
+    - {x: 32.749672, y: 33.382996}
+    - {x: 33.816322, y: 34.449646}
+    - {x: 34.832973, y: 35.54963}
+    - {x: 35.96629, y: 36.61628}
+    - {x: 37.099606, y: 37.749596}
+    - {x: 38.249588, y: 38.866245}
+    - {x: 39.39957, y: 39.932896}
+    - {x: 40.482887, y: 41.049545}
+    - {x: 41.566204, y: 42.132862}
+    - {x: 42.64952, y: 43.24951}
+    - {x: 43.76617, y: 44.349495}
+    - {x: 44.88282, y: 45.44948}
+    - {x: 45.982803, y: 46.54946}
+    - {x: 47.099453, y: 47.649445}
+    - {x: 48.216103, y: 48.73276}
+    - {x: 49.282753, y: 49.81608}
+    - {x: 50.382736, y: 50.91606}
+    - {x: 51.48272, y: 52.03271}
+    - {x: 52.566036, y: 53.116028}
+    - {x: 53.649353, y: 54.199345}
+    - {x: 54.716003, y: 55.265995}
+    - {x: 55.79932, y: 56.36598}
+    - {x: 56.882637, y: 57.46596}
+    - {x: 58.015953, y: 58.53261}
+    - {x: 59.082603, y: 59.61593}
+    - {x: 60.16592, y: 60.71591}
+    - {x: 61.23257, y: 61.79923}
+    - {x: 62.332554, y: 62.882545}
+    - {x: 63.41587, y: 63.949196}
+    - {x: 64.51597, y: 65.049416}
+    - {x: 65.58286, y: 66.13298}
+    - {x: 66.6831, y: 67.216545}
+    - {x: 67.78333, y: 68.30011}
+    - {x: 68.85023, y: 69.31699}
+    - {x: 69.95046, y: 70.45057}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Right
+    m_clipLength: 72.23334
+    m_tagPositions:
+    - {x: 0, y: 0.71666664}
+    - {x: 1.2499995, y: 1.7333324}
+    - {x: 2.2833319, y: 2.7833314}
+    - {x: 3.3333309, y: 3.8166637}
+    - {x: 4.366668, y: 4.850008}
+    - {x: 5.4166822, y: 5.916689}
+    - {x: 6.4500294, y: 6.933369}
+    - {x: 7.5000434, y: 7.983383}
+    - {x: 8.533375, y: 9.033367}
+    - {x: 9.583359, y: 10.083351}
+    - {x: 10.666676, y: 11.166668}
+    - {x: 11.71666, y: 12.233318}
+    - {x: 12.78331, y: 13.316635}
+    - {x: 13.84996, y: 14.366619}
+    - {x: 14.933277, y: 15.449936}
+    - {x: 15.9999275, y: 16.533253}
+    - {x: 17.083244, y: 17.599903}
+    - {x: 18.166561, y: 18.716553}
+    - {x: 19.249878, y: 19.783203}
+    - {x: 20.349861, y: 20.883186}
+    - {x: 21.449844, y: 21.949837}
+    - {x: 22.499828, y: 23.016487}
+    - {x: 23.583145, y: 24.099804}
+    - {x: 24.649796, y: 25.199787}
+    - {x: 25.766445, y: 26.29977}
+    - {x: 26.849762, y: 27.399754}
+    - {x: 27.949745, y: 28.48307}
+    - {x: 28.99973, y: 29.516388}
+    - {x: 30.049713, y: 30.583038}
+    - {x: 31.13303, y: 31.666355}
+    - {x: 32.233013, y: 32.79967}
+    - {x: 33.31633, y: 33.882988}
+    - {x: 34.38298, y: 34.932972}
+    - {x: 35.382965, y: 36.04962}
+    - {x: 36.56628, y: 37.149605}
+    - {x: 37.699596, y: 38.249588}
+    - {x: 38.866245, y: 39.382904}
+    - {x: 39.932896, y: 40.46622}
+    - {x: 41.016212, y: 41.549538}
+    - {x: 42.132862, y: 42.64952}
+    - {x: 43.199512, y: 43.76617}
+    - {x: 44.33283, y: 44.866154}
+    - {x: 45.43281, y: 45.966137}
+    - {x: 46.54946, y: 47.082787}
+    - {x: 47.66611, y: 48.18277}
+    - {x: 48.73276, y: 49.266087}
+    - {x: 49.832745, y: 50.332737}
+    - {x: 50.91606, y: 51.449387}
+    - {x: 52.049377, y: 52.54937}
+    - {x: 53.09936, y: 53.632687}
+    - {x: 54.199345, y: 54.716003}
+    - {x: 55.265995, y: 55.782654}
+    - {x: 56.34931, y: 56.899303}
+    - {x: 57.46596, y: 57.965954}
+    - {x: 58.53261, y: 59.065937}
+    - {x: 59.61593, y: 60.132587}
+    - {x: 60.699245, y: 61.215904}
+    - {x: 61.815895, y: 62.315887}
+    - {x: 62.882545, y: 63.382538}
+    - {x: 63.965862, y: 64.46596}
+    - {x: 65.032745, y: 65.56619}
+    - {x: 66.11631, y: 66.64976}
+    - {x: 67.233215, y: 67.73332}
+    - {x: 68.31678, y: 68.83356}
+    - {x: 69.417015, y: 69.93379}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 72.23334
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 72.23334
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 72.23334
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114925437848114778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|13_WalkContinue_Neutral_03_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400040, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 33.86667
+    m_tags:
+    - {x: 0, y: 1.9492602}
+    - {x: 5.0063725, y: 7.271781}
+    - {x: 10.306937, y: 11.30777}
+    - {x: 14.358551, y: 16.623962}
+    - {x: 19.239197, y: 19.844862}
+    - {x: 22.20619, y: 22.732826}
+    - {x: 24.659044, y: 25.50182}
+    - {x: 28.076038, y: 28.681704}
+    - {x: 31.181318, y: 33.86667}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 33.9
+    m_tagPositions:
+    - {x: 0, y: 0.1}
+    - {x: 0.6333334, y: 1.1166663}
+    - {x: 1.6666658, y: 2.1999986}
+    - {x: 2.6333315, y: 3.2166643}
+    - {x: 3.6833305, y: 4.216666}
+    - {x: 4.7500067, y: 5.2166796}
+    - {x: 5.766687, y: 6.2666936}
+    - {x: 6.800034, y: 7.3167076}
+    - {x: 7.833381, y: 8.316711}
+    - {x: 8.850037, y: 9.316696}
+    - {x: 9.883354, y: 10.350014}
+    - {x: 10.883339, y: 11.383331}
+    - {x: 11.9166565, y: 12.433315}
+    - {x: 12.933308, y: 13.449966}
+    - {x: 13.983292, y: 14.49995}
+    - {x: 15.033276, y: 15.549934}
+    - {x: 16.099926, y: 16.616585}
+    - {x: 17.14991, y: 17.61657}
+    - {x: 18.066563, y: 18.63322}
+    - {x: 19.183212, y: 19.683205}
+    - {x: 20.233196, y: 20.716522}
+    - {x: 21.249847, y: 21.74984}
+    - {x: 22.299831, y: 22.799824}
+    - {x: 23.333149, y: 23.833141}
+    - {x: 24.383133, y: 24.916458}
+    - {x: 25.46645, y: 25.999775}
+    - {x: 26.4831, y: 27.016426}
+    - {x: 27.583084, y: 28.11641}
+    - {x: 28.649734, y: 29.149727}
+    - {x: 29.64972, y: 30.166378}
+    - {x: 30.699703, y: 31.18303}
+    - {x: 31.73302, y: 32.24968}
+    - {x: 32.783005, y: 33.332996}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 33.9
+    m_tagPositions:
+    - {x: 0, y: 0.016666668}
+    - {x: 0.11666667, y: 0.61666673}
+    - {x: 1.1499996, y: 1.6666658}
+    - {x: 2.2166653, y: 2.6833315}
+    - {x: 3.2166643, y: 3.6999972}
+    - {x: 4.233333, y: 4.73334}
+    - {x: 5.2500134, y: 5.75002}
+    - {x: 6.2833605, y: 6.800034}
+    - {x: 7.3167076, y: 7.850048}
+    - {x: 8.283379, y: 8.850037}
+    - {x: 9.333363, y: 9.850021}
+    - {x: 10.36668, y: 10.8666725}
+    - {x: 11.399998, y: 11.9166565}
+    - {x: 12.433315, y: 12.949974}
+    - {x: 13.483299, y: 13.983292}
+    - {x: 14.516617, y: 15.016609}
+    - {x: 15.549934, y: 16.099926}
+    - {x: 16.633251, y: 17.14991}
+    - {x: 17.61657, y: 18.08323}
+    - {x: 18.63322, y: 19.199879}
+    - {x: 19.699871, y: 20.233196}
+    - {x: 20.733189, y: 21.249847}
+    - {x: 21.766506, y: 22.283165}
+    - {x: 22.783157, y: 23.349815}
+    - {x: 23.833141, y: 24.383133}
+    - {x: 24.933125, y: 25.483116}
+    - {x: 25.983109, y: 26.5331}
+    - {x: 26.99976, y: 27.566418}
+    - {x: 28.11641, y: 28.649734}
+    - {x: 29.166393, y: 29.666386}
+    - {x: 30.183044, y: 30.66637}
+    - {x: 31.216362, y: 31.716354}
+    - {x: 32.266346, y: 32.816338}
+    - {x: 33.332996, y: 33.86632}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 33.9
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 33.9
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 33.9
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 33.86667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+--- !u!114 &114943286650735532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e0c90096ff9a54bb00ca4e068031a7, type: 3}
+  m_Name: AnimUprisingRig|11_WalkPlant_Neutral_05_FINAL_MIRROR_comp
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: 7400012, guid: d9b2ee02710f70746b6aa2acbe11a1f7, type: 3}
+  BeforeClips: []
+  AfterClips: []
+  Looping: 0
+  IgnoreEdges: 1
+  ExtrapolateTrajectory: 0
+  FlattenTrajectory: 0
+  RuntimeSplicing: 0
+  GlobalTags: 0
+  GlobalFavourTags: 0
+  TagTracks:
+  - m_tagId: 1073741824
+    m_tagName: 
+    m_clipLength: 35.86667
+    m_tags:
+    - {x: 1.6517538, y: 4.5606976}
+    - {x: 6.1940107, y: 8.620282}
+    - {x: 10.434735, y: 12.902848}
+    - {x: 14.877458, y: 17.722233}
+    - {x: 19.698795, y: 21.497284}
+    - {x: 22.7258, y: 23.896523}
+    - {x: 25.6641, y: 26.66742}
+    - {x: 28.41742, y: 30.425165}
+    - {x: 32.151726, y: 35.70799}
+  FavourTagTracks: []
+  Events: []
+  LeftFootStepTrack:
+    m_trackId: 1
+    m_trackName: Footstep Left
+    m_clipLength: 35.86667
+    m_tagPositions:
+    - {x: 0, y: 1.0666664}
+    - {x: 1.5833325, y: 2.0499988}
+    - {x: 2.5833316, y: 3.0333312}
+    - {x: 3.566664, y: 4.0499973}
+    - {x: 4.583338, y: 5.112671}
+    - {x: 5.48335, y: 6.050024}
+    - {x: 6.5666976, y: 7.0167036}
+    - {x: 7.550044, y: 8.016716}
+    - {x: 8.516708, y: 8.933369}
+    - {x: 9.200031, y: 9.683357}
+    - {x: 10.200016, y: 10.650009}
+    - {x: 11.183334, y: 11.6333275}
+    - {x: 12.149986, y: 12.616646}
+    - {x: 13.116638, y: 13.516632}
+    - {x: 13.966625, y: 14.466618}
+    - {x: 14.999943, y: 15.449936}
+    - {x: 15.983261, y: 16.466587}
+    - {x: 16.999912, y: 17.483238}
+    - {x: 17.999897, y: 18.433224}
+    - {x: 18.799885, y: 19.38321}
+    - {x: 19.916534, y: 20.366528}
+    - {x: 20.91652, y: 21.383179}
+    - {x: 21.866505, y: 22.299831}
+    - {x: 22.833157, y: 23.333149}
+    - {x: 23.833141, y: 24.283134}
+    - {x: 24.616463, y: 25.083122}
+    - {x: 25.599781, y: 26.083107}
+    - {x: 26.5831, y: 26.983093}
+    - {x: 27.283089, y: 27.683083}
+    - {x: 28.216408, y: 28.7164}
+    - {x: 29.249725, y: 29.699718}
+    - {x: 30.216377, y: 30.683037}
+    - {x: 31.18303, y: 31.649689}
+    - {x: 32.166348, y: 32.649673}
+    - {x: 33.149666, y: 33.666325}
+    - {x: 34.229668, y: 35.86667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  RightFootStepTrack:
+    m_trackId: 0
+    m_trackName: Footstep Right
+    m_clipLength: 35.86667
+    m_tagPositions:
+    - {x: 0, y: 0.65000004}
+    - {x: 0.98333305, y: 1.5833325}
+    - {x: 2.083332, y: 2.5499983}
+    - {x: 3.0666645, y: 3.5499973}
+    - {x: 4.066664, y: 4.566671}
+    - {x: 5.016677, y: 5.5500174}
+    - {x: 6.066691, y: 6.5500307}
+    - {x: 7.0500374, y: 7.5167103}
+    - {x: 8.033382, y: 8.516708}
+    - {x: 8.9667015, y: 9.233364}
+    - {x: 9.633358, y: 10.18335}
+    - {x: 10.700008, y: 11.150002}
+    - {x: 11.66666, y: 12.13332}
+    - {x: 12.649979, y: 13.133305}
+    - {x: 13.466633, y: 13.999958}
+    - {x: 14.49995, y: 14.96661}
+    - {x: 15.499935, y: 15.966595}
+    - {x: 16.49992, y: 16.983246}
+    - {x: 17.499905, y: 17.98323}
+    - {x: 18.333225, y: 18.899883}
+    - {x: 19.399876, y: 19.883202}
+    - {x: 20.416527, y: 20.883186}
+    - {x: 21.416512, y: 21.866505}
+    - {x: 22.316498, y: 22.833157}
+    - {x: 23.349815, y: 23.833141}
+    - {x: 24.2998, y: 24.649796}
+    - {x: 25.04979, y: 25.583115}
+    - {x: 26.099773, y: 26.5831}
+    - {x: 27.016426, y: 27.283089}
+    - {x: 27.64975, y: 28.233074}
+    - {x: 28.749733, y: 29.216393}
+    - {x: 29.733051, y: 30.19971}
+    - {x: 30.66637, y: 31.166363}
+    - {x: 31.683022, y: 32.14968}
+    - {x: 32.683006, y: 33.166332}
+    - {x: 33.68299, y: 34.14965}
+    - {x: 34.589447, y: 35.86667}
+    m_footStepData:
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+    - Pace: 2
+      Type: 0
+  WarpPositionTrack:
+    m_trackId: 2
+    m_trackName: Disable Warp (Position)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  WarpRotationTrack:
+    m_trackId: 3
+    m_trackName: Disable Warp (Rotation)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  EnableRootMotionTrack:
+    m_trackId: 4
+    m_trackName: Disable Matching
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  PoseFavourTrack:
+    m_trackId: 5
+    m_trackName: Pose Favour
+    m_clipLength: 35.86667
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 1
+  WarpTrajLatTrack:
+    m_trackId: 6
+    m_trackName: Disable Trajectory Warp (Angular)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  WarpTrajLongTrack:
+    m_trackId: 7
+    m_trackName: Disable Trajectory Warp (Long)
+    m_clipLength: 35.86667
+    m_tagPositions: []
+  UserBoolTracks: []
+  UseSpeedMods: 0
+  MotionModifier:
+    MotionSections:
+    - MotionSectionId: 0
+      MotionPresetId: 0
+      ModType: 0
+      SmoothType: 0
+      RawModValue: 1
+      UsePresets: 1
+      EndTime: 35.86667
+  GeneratedClip: {fileID: 0}
+  GeneratedTagTracks: []
+  GeneratedFavourTagTracks: []
+  GeneratedEvents: []
+  GeneratedLeftFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedRightFootStepTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_footStepData: []
+  GeneratedWarpPositionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpRotationTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedEnableRootMotionTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedPoseFavourTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+    m_values: []
+    m_defaultValue: 0
+  GeneratedWarpTrajLatTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedWarpTrajLongTrack:
+    m_trackId: 0
+    m_trackName: 
+    m_clipLength: 0
+    m_tagPositions: []
+  GeneratedUserBoolTracks: []
+  m_targetPreProcessData: {fileID: 0}
+  m_targetAnimModule: {fileID: 11400000}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}

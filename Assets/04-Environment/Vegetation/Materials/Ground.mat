@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ground
+  m_Shader: {fileID: 4800000, guid: 0e0019510d6142644b412d07db9dee4e, type: 3}
+  m_Parent: {fileID: 2100000, guid: 6fdda37943b9e0149bb376db74768dba, type: 2}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords:
+  - _SOURCE_SPECULARALPHA
+  m_InvalidKeywords:
+  - _BLENDMAINNORMAL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendMainNormal: 1
+    - _Glossiness: 0
+    - _Metallic: 0
+    - _Parallax: 0.02
+    - _UseBaseColorAlpha: 0
+    - __dirty: 1
+    m_Colors: []
+  m_BuildTextureStacks: []

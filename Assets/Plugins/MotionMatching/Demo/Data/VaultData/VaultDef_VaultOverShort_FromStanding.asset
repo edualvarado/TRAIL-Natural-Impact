@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23a91d4d629ea44c94666ac7f4418bb, type: 3}
+  m_Name: VaultDef_VaultOverShort_FromStanding
+  m_EditorClassIdentifier: 
+  EventDefinition: {fileID: 11400000, guid: 62801d9010495f24ea6c31bba7052321, type: 2}
+  MinRise: 0.8
+  MaxRise: 1.8
+  MinDepth: 0
+  MaxDepth: 0.3
+  MinDrop: 0.5
+  MaxDrop: 2
+  DisableCollision: 0
+  LineUpWithObstacle: 1
+  VaultType: 2
+  OffsetMethod_Contact1: 2
+  Offset_Contact1: {x: 0, y: -0.025, z: 0.5}
+  OffsetMethod_Contact2: 1
+  Offset_Contact2: {x: 0, y: 0, z: 1}
